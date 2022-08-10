@@ -6,6 +6,8 @@
   font-size: 12px;
   line-height: 150%;
 }
-.intro__list li {
-  max-width: 288px;
+@media screen and (min-width: 450px) and (max-width: 721px) {
+  .intro__list {
+    max-width: 440px;
+  }
 }
