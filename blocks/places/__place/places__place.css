@@ -22,19 +22,16 @@
     margin-bottom: 73px;
   }
 }
-@media screen and (min-width: 450px) and (max-width: 721px) {
-  .places__place {
-    grid-template-columns: 1fr;
-    max-width: 450px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 721px) {
   .places__place {
     grid-template-columns: 1fr;
     max-width: 320px;
     margin: 0 auto;
     margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 721px) {
+  .places__place {
+    max-width: 450px;
   }
 }

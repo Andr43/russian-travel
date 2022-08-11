@@ -25,10 +25,11 @@
     margin-top: 5px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 721px) {
   .places__website {
     margin: 0;
     margin-left: 16px;
+    margin-bottom: 32px;
   }
   .places__place:nth-child(2n + 3) .places__website {
     margin-top: 0;
